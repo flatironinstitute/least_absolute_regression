@@ -8,6 +8,10 @@ install:
   - pip install -r requirements.txt
   - python setup.py install
   - pip install nose
+  - pip install codecov
 script:
-  - nosetests
+  #- nosetests
+  - coverage run --source=inferelator_ng setup.py test
+after_success:
+  - codecov
   
