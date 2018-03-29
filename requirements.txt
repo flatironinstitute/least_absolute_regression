@@ -1,0 +1,6 @@
+# These are the requirements for repo2docker.
+# The minimal requirements for lae_regression are in lae_regression/requirements.txt
+-e ./lae_regression
+numpy
+scipy
+matplotlib
