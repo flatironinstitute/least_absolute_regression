@@ -11,7 +11,7 @@ install:
   - pip install codecov
 script:
   #- nosetests
-  - coverage run --source=inferelator_ng setup.py test
+  nosetests --with-coverage
 after_success:
   - codecov
   
