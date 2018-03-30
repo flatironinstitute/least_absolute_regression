@@ -1,0 +1,30 @@
+Title
+
+How to get cool badges for your scientific workflow
+
+Description
+
+Modern science demands that scientific results
+and workflows must be reproducible and transparent whenever possible.
+We have found that many tools and services designed for open software
+development are also useful for developing open and reproducible science.
+This talk describes how Jupyter fits in
+with other standard tools and services in reproducible science projects
+we have developed.
+
+The talk will outline a methodology for publishing scientific workflows
+via:
+
+- Jupyter notebooks for repeatable computational experimentation.
+- Cookiecutter for hardening code components into publishable modules.
+- Git and Github as a platform for code collaboration/distribution
+and an infrastructure for other services.
+- Travis continuous integration for validating workflows in different
+environments.
+- Using Jupyter notebooks as executable documentation.
+- Code coverage interfaces for assessing test quality.
+- Docker containers for distributing complete computational environments.
+- Using repo2docker to easily build docker containers.
+- Using Binder with Jupyter to allow anyone to try your workflow without installing
+anything.
+
