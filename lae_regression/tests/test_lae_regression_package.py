@@ -43,6 +43,17 @@ class TestL1fit1DNontrivial(TestL1FitTrivial0):
     expected_m = [ 0.5]
     expected_k = -0.5
 
+class TestL1fit2DTrivial(TestL1FitTrivial0):
+
+    def get_U(self):
+        return ([1, 0], [2, 1], [3, 0])
+
+    def get_v(self):
+        return (-1, 1, 1)
+    
+    expected_m = [ 1.,  1.]
+    expected_k = -2
+
 class TestL1fit1DOutlier(TestL1FitTrivial0):
 
     def get_U(self):
