@@ -49,7 +49,8 @@ associated with Jupyter notebooks.
 [Please see the `./presentation` folder for detailed discussion
 of the methods used (as jupyter notebooks).](./presentation)
 
-In particular the [`./presentation/Notebooks as Notes.ipynb`](./presentation/1_Notebooks as Notes.ipynb)
-notebook introduces concepts of least absolute error regression
-and the [`./presentation/1.1_Method%20Derivation.ipynb`](./presentation/1.1_Method Derivation.ipynb)
-notebook discussing the derivation of the calculation.
+In particular the 
+`./presentation/Notebooks as Notes.ipynb`
+notebook introduces concepts of least absolute error regression and the
+`./presentation/1.1_Method Derivation.ipynb`
+notebook discusses the derivation of the calculation.
