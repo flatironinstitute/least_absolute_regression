@@ -7,7 +7,7 @@
 
 Least absolute error regression implemented using Linear Programming.
 
-Below is anl example with 2 independent variables that do not fit a plane.
+Below is an example using 5 samples with 2 independent variables that do not fit a plane.
 The mapping of independent variables to the dependent variable is
 ```
 (1,1) --> 0
@@ -36,6 +36,21 @@ The value of the last line gives:
  2)
 ```
 
-Here with m = (1,1) and k = -2 the regression finds the plane
-1*x + 1*y - 2 = z and essentially rejects the last mapping as an
+Here with `m = (1,1)` and `k = -2` the regression finds the plane
+`1*x + 1*y - 2 = z` and essentially rejects the last mapping as an
 outlier.
+
+## Background
+
+Historically this code was set up to illustrate techniques for
+developing and publishing computational methods using methodologies
+associated with Jupyter notebooks.
+
+[Please see the `./presentation` folder for detailed discussion
+of the methods used (as jupyter notebooks).](./presentation)
+
+In particular the 
+`./presentation/Notebooks as Notes.ipynb`
+notebook introduces concepts of least absolute error regression and the
+`./presentation/1.1_Method Derivation.ipynb`
+notebook discusses the derivation of the calculation.
